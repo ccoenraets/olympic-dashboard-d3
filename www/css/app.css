@@ -1,0 +1,152 @@
+#left-nav {
+    position: absolute;
+    width: 200px;
+    top: 0px;
+    left:0px;
+    bottom: 0px;
+    background: #484B4C;
+    border-right: solid 1px #000;
+    color: #ddd;
+}
+
+#left-nav>.welcome {
+    padding: 8px;
+}
+
+#left-nav>.list>li {
+    border-bottom: solid 1px #444;
+    padding: 8px;
+}
+
+.list-item:not(:first-of-type) {
+    border-top: solid 1px #555;
+}
+
+#left-nav>.list>.list-item h3 {
+    margin: 0px;
+    font-size: 16px;
+    color: #e5e5e5;
+}
+
+#left-nav>.list>.list-item p {
+    margin: 0px;
+}
+
+#left-nav>.list>li:active {
+    background-color: #393939;
+}
+
+#left-nav>.title {
+    background: #444;
+    /*opacity: .3;*/
+    padding: 4px;
+    border-top: solid 1px #555;
+    border-bottom: solid 1px #333;
+    /*border-bottom: solid 1px #555;*/
+}
+
+#left-nav i {
+    font-size: 28px;
+    float:left;
+    margin-right: 8px;
+    width: 28px;
+}
+
+#container {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+}
+
+#container.offset {
+    -webkit-transform: translate3d(200px, 0, 0);
+    transform: translate3d(200px, 0, 0);
+}
+
+#container.transition {
+    -webkit-transition-duration: .25s;
+    transition-duration: .25s;
+}
+
+#content {
+    position: absolute;
+    overflow: auto;
+    -webkit-overflow-scrolling: touch;
+    top: 44px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    background: #ffffff;
+}
+
+.chart {
+    font-family: Helvetica, Arial, Verdana, sans-serif;
+    fill: #666;
+    font-size: 12px;
+    display: table;
+    width: 490px;
+    height: 320px;
+    float: left;
+    margin: 10px;
+    overflow: hidden;
+}
+
+.chart2 {
+    height: 650px;
+}
+
+.chart>.title {
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+    height: 34px;
+    font-family: 'Segoe UI Light', 'Helvetica Neue Light', 'Segoe UI', 'Helvetica Neue', 'Trebuchet MS', Verdana;
+    font-weight: 200;
+    font-size: 24px;
+}
+
+.chart>.graph {
+    display: table-row;
+    width: 100%;
+    height: 100%;
+}
+
+.chart>.legend {
+    display: table-cell;
+    height: 34px;
+    width: 100%;
+    text-align: center;
+    vertical-align: top;
+}
+
+.chart>.vertical-legend {
+    display: table-cell;
+    height: 150px;
+    width: 200px;
+}
+
+.chart2 {
+    width: 460px;
+    height: 680px;
+    float: left;
+    padding: 10px;
+}
+
+.color0 {
+    fill: #3880aa;
+}
+
+.color1 {
+    fill: #4da944;
+}
+.color2 {
+    fill: #f26522;
+}
+.color3 {
+    fill: #c6080d;
+}
+.color4 {
+    fill: #672d8b;
+}
